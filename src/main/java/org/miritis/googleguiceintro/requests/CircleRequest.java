@@ -4,12 +4,11 @@ import com.google.inject.Inject;
 
 import org.miritis.googleguiceintro.DrawShape;
 import org.miritis.googleguiceintro.annotations.Circle;
-import org.miritis.googleguiceintro.annotations.Square;
 
-public class SquareRequest {
+public class CircleRequest {
     
     @Inject
-    @Square
+    @Circle
     DrawShape d;
 
     public void makeRequest()
